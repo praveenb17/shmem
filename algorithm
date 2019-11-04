@@ -11,4 +11,7 @@
   #Split new block and return the exaact size block to user
     #Example - > #define BLOCK_MEM(ptr) ((void *)((unsigned long)ptr + sizeof(block_t)))
    
-  
+#Thigs to be known 
+  #Required starting adress for the heap
+  #Maximum required block by the user
+  #my realloc function
