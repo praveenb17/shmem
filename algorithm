@@ -1,0 +1,14 @@
+/******FOR Malloc Function*****************/
+
+#Implemting Double linked list
+  #If block is found with required size return address
+  #If block is larger split and return the address add newblock to the list
+  #If Unable to find block of required size request OS using sbrk()
+  
+#After calling sbrk()
+  #Create a new block with allocated size
+    #First 24 Bytes are Metadata for Next and Previous block (Data about data present in block)
+  #Split new block and return the exaact size block to user
+    #Example - > #define BLOCK_MEM(ptr) ((void *)((unsigned long)ptr + sizeof(block_t)))
+   
+  
