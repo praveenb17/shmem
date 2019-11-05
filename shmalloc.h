@@ -1,4 +1,4 @@
-/******** shmalloc.c **********/
+/******** shmalloc.h **********/
 
 #include<shmem.h>
 
