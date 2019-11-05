@@ -1,4 +1,7 @@
-/******FOR Malloc Function*****************/
+/******FOR my Malloc Function*****************/
+
+
+/**** Algorithm **********/
 
 #Implemting Double linked list
   #If block is found with required size return address
