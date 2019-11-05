@@ -7,7 +7,7 @@ int *ptr;  s
 int *shmalloc(int size)
 {
 	  
-    ptr = malloc(size * sizeof(*ptr)); 
+    //ptr = malloc(size * sizeof(*ptr)); //We are usig mymalloc()
     if (ptr == NULL) 
 	{
       	printf("Error! memory not allocated.");
