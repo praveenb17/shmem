@@ -1,3 +1,7 @@
+//MEMCOPY FROM ADAPTEVA IMPLEMENTATION
+//TO BE MODIFIED/REWRITTEN
+
+
 void
 shmemx_memcpy8(void* dst, const void* src, size_t nbytes)
 {
